@@ -1,0 +1,145 @@
+﻿@media (max-width: 1150px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+body {
+	background-color: #E0E0EB;
+}
+
+.navbar {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-bottom: 2px solid #CACAD4;
+}
+
+.navbar-brand {
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	border-right: 1px dashed #CACAD4;
+}
+
+.navbar li a{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+.navbar li a:hover {
+	text-decoration: underline;
+}
+
+.postagem-integra {
+  background-color: white;
+  border-bottom: 2px solid #CACAD4;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.postagem-integra h2 {
+  font-size: 32px;  
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: bold;
+  color: #414141;
+}
+
+.postagem-integra h3 {
+  font-size: 18px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: bold;
+  color: #ababba;
+}
+
+.postagem-integra h4 {
+  font-size: 24px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: bold;
+  color: #414141;
+}
+
+.postagem-integra p {
+  font-size: 16px;  
+  font-family: 'Open Sans', sans-serif;
+  color: #414141;
+}
+
+.postagem-integra hr {
+	margin: 5px;
+	border: 1px solid #414141;
+}
+
+.postagem-integra small {
+	margin-left: 15px;
+}
+
+.postagem-integra li {
+	font-size: 20px;  
+	font-family: 'Open Sans', sans-serif;
+	color: #414141;
+	margin: 10px;
+}
+
+.footer {
+	background-color: #F8F8F8;
+	border-bottom: 2px solid #CACAD4;
+	border-radius: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.footer h1 {
+	font-size: 18px;  
+	font-family: 'Roboto Slab', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #414141;
+	margin: 5px;
+}
+
+.footer p {
+	font-size: 12px;  
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: #414141;
+	margin: 5px;
+}

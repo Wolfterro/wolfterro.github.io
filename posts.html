@@ -2,13 +2,13 @@
 <html>
 
 <head>
-	<title>Wolfgang - Website: Início</title>
+	<title>Wolfgang - Website: Postagens</title>
 	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/indexsheet.css">
+	<link rel="stylesheet" type="text/css" href="css/postsheet.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
@@ -26,8 +26,8 @@
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-left">
-					<li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Início</a></li>
-					<li><a href="posts.html"><span class="glyphicon glyphicon-comment"></span> Postagens</a></li>
+					<li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Início</a></li>
+					<li class="active"><a href="posts.html"><span class="glyphicon glyphicon-comment"></span> Postagens</a></li>
 					<li><a href="downloads.html"><span class="glyphicon glyphicon-download-alt"></span> Downloads</a></li> 
 					<li><a href="tutoriais.html"><span class="glyphicon glyphicon-bookmark"></span> Tutoriais</a></li> 
 					<li><a href="videos.html"><span class="glyphicon glyphicon-expand"></span> Vídeos</a></li> 
@@ -39,37 +39,55 @@
 		</div>
 	</nav>
 	
-	<div class="jumbotron">
-		<div class="container">
-			<center><img src="img/avatar.jpg" class="img-circle" alt="Avatar" width="250" height="250"></center>
-		</div>
-    </div>
-	
 	<div class="intro">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
 					<hr>
 					<br>
-					<h1><span class="glyphicon glyphicon-star-empty"></span> Website Pessoal de Wolfgang de Almeida Pires <span class="glyphicon glyphicon-star-empty"></span></h1>
-					<h2>( Administrador de Redes / Programador / Técnico em Informática )</h2>
-					<br>
-					<h2><img src="https://github.com/fluidicon.png" alt="Github" width="28" height="28"> Github: <a href="https://github.com/Wolfterro" target="_blank">https://github.com/Wolfterro</a></h2>
-					<h2><span class="	glyphicon glyphicon-envelope"></span> E-Mail: <a href="mailto:wolfgang.almeida@yahoo.com">wolfgang.almeida@yahoo.com</a></h2>
+					<h1><span class="glyphicon glyphicon-comment"></span> Postagens <span class="glyphicon glyphicon-comment"></span></h1>
+					<p>Postagens, notícias e anúncios sobre diversos assuntos!</p>
 					<br>
 					<hr>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--EXEMPLO DE POSTAGEM:
+	--------------------------
+		<div class="postagem">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<hr>
+						<h2>TITULO DA POSTAGEM<small>Postado em: DIA/MÊS/ANO</small></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+						<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<h3><a href="LINK DA POSTAGEM" target="_blank">Leia mais!</a></h3>
+						<hr>
+					</div>
+				</div>
+			</div>
+		</div>
+	--------------------------
+	POSTAGENS MAIS NOVAS DEVERÃO SER COLOCADAS NO TOPO!
+	--------------------------
+	-->
+	
+	<div class="postagem">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<hr>
+					<h2>Primeira postagem: propósito e conteúdo do site<small>Postado em: 16/02/2016</small></h2>
+					<h3>Esta é a primeira postagem do site, explicando seu propósito e seu conteúdo.</h3>
 					<br>
-					<p>Aqui vocês encontrarão tutoriais, vídeos e postagens sobre diversos assuntos ligados ao mundo da informática, como programação, desenvolvimento web e novas tecnologias.</p> 
+					<p>Decidi criar este site com o intuito de divulgar meus trabalhos e projetos em programação, assim como também postar conteúdos que se assemelham a estes assuntos e ajudar quem necessite de um ponto de partida para aprender sobre programação, desenvolvimento web, administração de redes de computadores e outros assuntos ligados a Tecnologia da Informação.</p>
 					<br>
-					<p>Basta clicar em um dos links abaixo ou na barra de navegação no topo da página:</p>
-					<br>
-					<ul>
-						<li><a href="posts.html"><span class="glyphicon glyphicon-comment"></span> Postagens</a></li>
-						<li><a href="downloads.html"><span class="glyphicon glyphicon-download-alt"></span> Downloads</a></li> 
-						<li><a href="tutoriais.html"><span class="glyphicon glyphicon-bookmark"></span> Tutoriais</a></li> 
-						<li><a href="videos.html"><span class="glyphicon glyphicon-expand"></span> Vídeos</a></li> 
-					</ul>
-					<br>
+					<h4><a href="posts/primeira_postagem.html" target="_blank">Leia mais!</a></h4>
 					<hr>
 				</div>
 			</div>
