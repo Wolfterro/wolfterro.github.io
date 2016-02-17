@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Wolfgang - Website: Postagens - Projetos pessoais: alguns exemplos</title>
+	<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="../css/postagenssheet.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span> 
+				</button>
+				<a class="navbar-brand"><span><img src="../img/favicon.ico" type="image/x-icon" width="25" height="25" /></span> Wolfgang - Website</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-left">
+					<li><a href="../index.html"><span class="glyphicon glyphicon-home"></span> Início</a></li>
+					<li class="active"><a href="../posts.html"><span class="glyphicon glyphicon-comment"></span> Postagens</a></li>
+					<li><a href="../downloads.html"><span class="glyphicon glyphicon-download-alt"></span> Downloads</a></li> 
+					<li><a href="../tutoriais.html"><span class="glyphicon glyphicon-bookmark"></span> Tutoriais</a></li> 
+					<li><a href="../videos.html"><span class="glyphicon glyphicon-expand"></span> Vídeos</a></li> 
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="https://github.com">Powered by: Github</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<!--
+	* POSTAGENS FUTURAS DEVERÃO SEGUIR O EXEMPLO ABAIXO!
+	-->
+	
+	<div class="postagem-integra">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<hr>
+					<h2>Projetos pessoais: alguns exemplos<small>Postado em: 17/02/2016</small></h2>
+					<h3>Alguns exemplos de meus projetos no Github</h3>
+					<br>
+					<p>Já faz um ano e meio que comecei a desenvolver páginas da web e pequenas aplicações em linguagens de programação simples, como Python. Não posso dizer que sou profissional neste ramo, ainda tenho muito que aprender sobre programação e desta maneira crio programas simples e com diversas funcionalidades, seja uma aplicação para o ambiente de trabalho ou um script simples para facilitar a minha vida.</p>
+					<br>
+					<p>Abaixo, você verá alguns de meus projetos:</p>
+					<br>
+					<p><b>Cadastramento 2016</b></p>
+					<br>
+					<p>Tinha decidido criar algo útil para o dia-a-dia, como uma ferramenta de trabalho que é utilizada constantemente mas que poucas pessoas dão valor, algo como um software de cadastramento pessoal simples e que pode ser utilizada para serviços mais básicos em alguma loja ou até mesmo numa pequena clínica médica.</p>
+					<br>
+					<p>Decidi então criar o Cadastramento 2016:</p>
+					<br>
+					<center> <img class="img-responsive" src="img/projetos_pessoais/cadastramento2016.png" alt="Cadastamento 2016"></center>
+					<br>
+					<p>O programa é bem simples, mas ainda não é exatamente ideal para uso profissional. É escrito em Python2 e pode ser executado em qualquer máquina Linux (ou unix em geral), dependendo apenas do Python2 e do editor de texto 'Nano'. Um usuário experiente (ou que tenha ao menos um conhecimento simples da linguagem Python) poderá editar o programa para usar o editor de texto 'Vi' ao invés do Nano.</p>
+					<br>
+					<p>O programa não está compilado e pode ser executado diretamente via terminal e editado diretamente com um simples editor de texto.</p>
+					<br>
+					<p>Link para o repositório: <a href="https://github.com/Wolfterro/Cadastramento-2016" target="_blank">https://github.com/Wolfterro/Cadastramento-2016</a></p>
+					<br>
+					<p><b>Youtube-DL-Script</b></p>
+					<br>
+					<p>Um dos programas que mais me impressionou quando comecei a usar a plataforma Linux no dia-a-dia, tanto para estudo quanto para uso cotidiano, foi um programa escrito em Python, aparentemente simples e que realizava uma função muito útil, o <a href="https://github.com/rg3/youtube-dl" target="_blank">youtube-dl</a>.</p>
+					<br>
+					<p>O programa possui uma série de comandos para baixar vídeos e músicas de sites como o Youtube e diversos sites de streaming, alguns destes comandos são bem compridos e eu não queria ter que ficar digitando um comando grande toda vez que quisesse baixar uma música. Decidi então criar o Youtube-DL-Script:</p>
+					<br>
+					<center> <img class="img-responsive" src="img/projetos_pessoais/youtubedlscript.png" alt="Youtube-DL-Script"></center>
+					<br>
+					<p>O script é bem simples, também desenvolvido em Python2 mas possui versões para Python3, Ruby e Bash (Shell Script). Atualmente o script é voltado apenas para downloads de vídeos e músicas do Youtube, podendo talvez no futuro incluir outros sites de mídia compatíveis com o youtube-dl.</p>
+					<br>
+					<p>Outro requerimento é que um programa de conversão precisa estar instalado, seja ele o libav-tools ou o ffmpeg. O próprio youtube-dl irá se encarregar de usar um ou outro mas é necessário que esteja instalado caso queira converter um vídeo de um formato X para Y ou caso queira baixar uma música e queira também que o seu formato seja em MP3.</p>
+					<br>
+					<p>Como o script não é um programa standalone (isto é, não baixa os conteúdos por conta própria), ele necessita que o youtube-dl esteja instalado e seja reconhecido como um comando do sistema para que possa funcionar corretamente. Voltado também para a plataforma Linux (ou Unix em geral), sua versão em Python requer a versão correspondente instalada no sistema (Python2 ou Python3), assim também como a sua versão em Ruby.</p>
+					<br>
+					<p>Link para o repositório: <a href="https://github.com/Wolfterro/Youtube-DL-Script" target="_blank">https://github.com/Wolfterro/Youtube-DL-Script</a></p>
+					<br>
+					<p><b>Mega-Sena Simulator 2016</b></p>
+					<br>
+					<p>Comecei a programar em Java no início de 2015 por recomendação de um amigo e tenho achado a linguagem Java muito impressionante! Rica em diversas bibliotecas com diversas funções incluídas, a linguagem Java torna o desenvolvimento de certas aplicações um trabalho simples e totalmente descomplicado.</p>
+					<br>
+					<p>Mas como ainda sou iniciante na área de programação, decidi começar por algo mais simples, até mesmo algo bobo. Tinha criado então aplicações básicas descritas em tutoriais e vídeos na internet, como um <a href="https://github.com/Wolfterro/Conversor-de-Temperatura-2016" target="_blank">conversor de temperatura</a> e outros programas que não cheguei a publicar no Github.</p>
+					<br>
+					<p>Decidi criar então um joguinho simples, algo bobo para passar o tempo. Criei então o Mega-Sena Simulator 2016:</p>
+					<br>
+					<center> <img class="img-responsive" src="img/projetos_pessoais/mssimulator.png" alt="Mega-Sena Simulator 2016"></center>
+					<br>
+					<p>O jogo não é para ser algo muito sério, como apostas altas, micro-transações ou esquemas em geral, veja apenas como uma "paródia" e a falta de criatividade de um desenvolvedor iniciante.</p>
+					<br>
+					<p>As regras são bem simples, você precisa inserir uma combinação de seis números no campo de texto do programa (números abaixo de 01 e maiores que 60 não são válidos) e clicar no botão 'Jogar!'. O sorteio é feito automaticamente pelo programa e, se tiver sorte, você será milionário (de mentirinha, infelizmente) ou será requisitado a tentar novamente, se assim desejar.</p>
+					<br>
+					<p>Link para o repositório: <a href="https://github.com/Wolfterro/Mega-Sena-Simulator-2016" target="_blank">https://github.com/Wolfterro/Mega-Sena-Simulator-2016</a></p>
+					<br>
+					<p>Em suma, sei que ainda tenho muito que aprender em relação a programação, não apenas outras linguagens mas como também suas convenções, suas funções e suas áreas de aplicação que mais se encaixam com suas características, como a linguagem C para aparelhos mais simples que necessitam do melhor aproveitamento de recursos possível e Java para ambientes mobile (como o Android) ou para aplicações que necessitem de portabilidade.</p>
+					<br>
+					<p>Espero poder criar outros programas e scripts no futuro. Programas mais úteis, mais eficientes e que seja necessário tanto para mim quanto para outras pessoas que estiverem interessadas em minhas criações.</p>
+					<br>
+					<h4><a href="../posts.html">Voltar!</a></h4>
+					<hr>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>© 2016 / Wolfgang - Website / Website Desenvolvido por Wolfgang de Almeida Pires.</h1>
+					<p>Este site está hospedado em <a href="https://github.com">Github</a> / Este site utiliza <a href="http://getbootstrap.com/">Bootstrap</a> / Este site utiliza <a href="http://glyphicons.com/">Glyphicons</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
