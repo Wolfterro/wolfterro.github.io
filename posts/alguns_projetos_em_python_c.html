@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Wolfgang - Website: Postagens - Primeira postagem do site!</title>
+	<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="../css/postagenssheet.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span> 
+				</button>
+				<a class="navbar-brand"><span><img src="../img/favicon.png" width="25" height="25" /></span> Wolfgang - Website</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-left">
+					<li><a href="../index.html"><span class="glyphicon glyphicon-home"></span> Início</a></li>
+					<li class="active"><a href="../posts.html"><span class="glyphicon glyphicon-comment"></span> Postagens</a></li>
+					<li><a href="../downloads.html"><span class="glyphicon glyphicon-download-alt"></span> Downloads</a></li> 
+					<li><a href="../tutoriais.html"><span class="glyphicon glyphicon-bookmark"></span> Tutoriais</a></li> 
+					<li><a href="../videos.html"><span class="glyphicon glyphicon-expand"></span> Vídeos</a></li> 
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="https://github.com">Powered by: GitHub</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<!--
+	* POSTAGENS FUTURAS DEVERÃO SEGUIR O EXEMPLO ABAIXO!
+	-->
+	
+	<div class="postagem-integra">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<hr>
+					<h2>Alguns Projetos em Python e C<small>Postado em: 15/11/2016</small></h2>
+					<h3>Mais alguns projetos criados por mim!</h3>
+					<br>
+					<p>Tenho aprendido muito sobre diversas linguagens de programação ao longo deste ano, mas devo admitir que apenas algumas linguagens despertaram o meu interesse por programação. Uma dessas linguagens de programação se chama Python.</p>
+					<br>
+					<p>Conhecido por ter duas versões diferentes (Python 2 e Python 3) e ser uma linguagem de programação simples para iniciantes, o Python se mostrou uma linguagem de programação muito atraente para mim e muito fácil de se aprender. Utilizo o Python 2 com mais frequência, mas reconheço que devo me acostumar com uma transição para a nova versão, já que ela corrige inúmeros bugs e melhora o uso de algumas bibliotecas e funções da própria linguagem.</p>
+					<br>
+					<p>Diferente de outras linguagens de programação como C++, não é necessário utilizar compiladores ou escrever códigos voltados para uma máquina específica (isto é, x86 ou x64), um único programa em Python pode ser escrito para rodar em uma gama de aparelhos diferentes, algo similar a Java, onde você escreve uma vez e roda em qualquer lugar.</p>
+					<br>
+					<p>Por causa desta facilidade e por ser tão portátil (podendo rodar tanto na minha partição Windows quanto nas minhas máquinas virtuais GNU/Linux), decidi optar por utilizar o Python na maioria dos meus projetos.</p>
+					<br>
+					<p>Abaixo está alguns de meus projetos favoritos em Python até o momento:</p>
+					<br>
+					<p><b>Boards Image Downloader</b></p>
+					<br>
+					<center> <img class="img-responsive" src="https://raw.githubusercontent.com/Wolfterro/wolfterro.github.io/master/posts/img/imagens_de_projetos/boards_image_downloader.png" alt="Boards Image Downloader"></center>
+					<br>
+					<p>Diferente dos meus primeiros projetos que eram voltados para o uso de terminais e prompts de comando (não que isto seja ruim, é sempre bom saber mexer com terminais), este foi um dos meus primeiros projetos a utilizar uma interface gráfica, ou GUI (Graphical User Interface).</p>
+					<br>
+					<p>O uso de uma interface gráfica com certeza ajuda um usuário simples a utilizar o programa corretamente e certamente é mais atraente do que uma tela preta com letras brancas que esperam algum comando do usuário. Comando este que muitas vezes não é muito evidente.</p>
+					<br>
+					<p>Este programa possui a função de baixar imagens e vídeos do 4chan e de outras imageboards que utilizam a API em JSON para mostrar informações sobre as threads (tópicos) ou as boards que a imageboard possui. Isso facilita muito na hora de baixar as imagens dos tópicos.</p>
+					<br>
+					<p>Quando criei este programa, eu já possuia uma versão em CLI (Command Line Interface, isto é, por terminal ou prompt de comando), mas ví que seria interessante criar uma versão em GUI, até mesmo para distribuir para os amigos. Eu utilizei o PyQt4 para a criação da interface gráfica pois é bem simples de se utilizar e permite a criação de interfaces bem bonitas e funcionais, e tudo isso utilizando códigos em Python.</p>
+					<br>
+					<p>Link para o repositório: <a href="https://github.com/Wolfterro/Boards-Image-Downloader" target="_blank">https://github.com/Wolfterro/Boards-Image-Downloader</a></p>
+					<br>
+					<p><b>G.E-Downloader</b></p>
+					<br>
+					<center> <img class="img-responsive" src="http://i.imgur.com/gv6MLnH.png" alt="G.E-Downloader"></center>
+					<br>
+					<p>Similar ao Boards Image Downloader e criado utilizando o PyQt4, o G.E-Downloader possui a função de baixar as imagens dos álbuns do g.e-hentai.</p>
+					<br>
+					<p>Infelizmente, diferente do Boards Image Downloader, o G.E-Downloader não utiliza uma API para baixar as imagens, mas isso não impede de ser possível programar algo na linguagem Python que possa baixar estas imagens mesmo assim.</p>
+					<br>
+					<p>Inicialmente, eu tinha criado uma versão em CLI mas como eu sabia que teria algumas pessoas interessadas em meu projeto, decidi criar uma versão em GUI para que o processo possa ser mais simples, principalmente para aqueles que utilizam o Windows como plataforma padrão.</p>
+					<br>
+					<p>Link para o repositório: <a href="https://github.com/Wolfterro/G.E-Downloader" target="_blank">https://github.com/Wolfterro/G.E-Downloader</a></p>
+					<br>
+					<p><b>GPBus</b></p>
+					<br>
+					<center> <img class="img-responsive" src="http://i.imgur.com/8guv6Ky.gif" alt="GPBus"></center>
+					<br>
+					<p>Voltando a boa e velha linha de comando, especialmente pelo fato de não ter pensado ainda como irei portar este programa para uma interface gráfica, decidi criar uma aplicação que mostre a localização dos ônibus do Rio de Janeiro através do GPS deles. Criei então o GPBus.</p>
+					<br>
+					<p>O GPBus possui dois modos de mostrar os ônibus: através da linha do ônibus ou seu número de ordem. Seja em que modo for, ele irá mostrar a data, hora, localização, latitude, longitude, número de ordem, linha e velocidade do ônibus registrados naquele momento.</p>
+					<br>
+					<p>Acho que seria mais interessante um programa como este ser portado para uma plataforma mobile, como Android, iOS e Windows Phone, mas meu conhecimento acerca destas plataformas ainda é limitado então terei que me contentar em usá-lo através da linha de comando.</p>
+					<br>
+					<p>Mas meu próximo passo, com certeza, é portá-lo para uma destas plataformas (Android e Windows Phone especificamente, não tenho nenhum aparelho da Apple para criar uma versão para iOS), talvez até mesmo integrá-lo com o Google Maps, já que o GPBus utiliza a API do Google Maps para mostrar a localização exata dos ônibus.</p>
+					<br>
+					<p>Link para o repositório: <a href="https://github.com/Wolfterro/GPBus" target="_blank">https://github.com/Wolfterro/GPBus</a></p>
+					<br>
+					<p><b>- - - - -</b></p>
+					<br>
+					<p>Apesar de utlizar o Python na maioria dos meus projetos, outra linguagem de programação me atraiu muito, principalmente por causa de seu legado e por ser uma linguagem de programação que permite estar mais próxima do "metal", isto é, ser mais otimizada do que linguagens como Java e C#, até mesmo o Python!</p>
+					<br>
+					<p>A linguagem C, apesar de parecer complicada para muita gente, me fez ver o que realmente acontece por baixo de toda a abstração que linguagens de alto nível costumam dar, como saber trabalhar com diversos tipos de dados corretamente e gerenciar manualmente alocações de memória.</p>
+					<br>
+					<p>O que para muitos parece ser chato (e de uma certa forma realmente é, pois se trabalha mais para conseguir o mesmo resultado com linguagens de programação de níveis mais elevados), para mim é interessante pelo fato de que muita coisa pode ser feita com uma linguagem de baixo nível como a linguagem C. Desde sistemas operacionais até programas com interfaces gráficas avançadas e bem detalhadas, a linguagem C dá mais liberdade para trabalhar no que você quiser!</p>
+					<br>
+					<p>Apesar de não ter criado nenhum sistema operacional ou até mesmo ter criado algum programa com interface gráfica ainda, utilizo a linguagem C para alguns projetos pequenos, mais por questões de aprendizado do que criar ferramentas úteis no dia-a-dia (não que isto seja impossível, é claro), ainda sou novato nesta linguagem então não tenho muitas ideias ou projetos interessantes para criar.</p>
+					<br>
+					<p>Aqui estão alguns projetos em C que eu fiz ou ajudei a fazer:</p>
+					<br>
+					<p><b>cliclocker</b></p>
+					<br>
+					<center> <img class="img-responsive" src="http://i.imgur.com/U6jYWqx.gif" alt="cliclocker"></center>
+					<br>
+					<p>Não é um projeto de minha autoria, mas este fork possui algumas modificações feitas por mim, principalmente na questão das cores, bordas e calendário, que não existiam no programa original.</p>
+					<br>
+					<p>Como é possível ver, o cliclocker é um relógio digital que utiliza o terminal para ser exibido. Utilizando a biblioteca ncurses, é possível criar um relógio digital interativo através de um terminal UNIX.</p>
+					<br>
+					<p>Escrito na linguagem C, foi um dos meus primeiros programas em C que eu criei ou modifiquei de alguma maneira, mas boa parte do programa já havia sido escrito, precisando apenas de alguns retoques.</p>
+					<br>
+					<p>Link para o repositório: <a href="https://github.com/Wolfterro/cliclocker" target="_blank">https://github.com/Wolfterro/cliclocker</a></p>
+					<br>
+					<p><b>Trump.c</b></p>
+					<br>
+					<center> <img class="img-responsive" src="http://i.imgur.com/I1oYBB5.png" alt="Trump.c"></center>
+					<br>
+					<p>Provavelmente um dos programas mais "sem noção" que eu já escrevi, o Trump.c veio para tornar a prática da programação grande novamente.</p>
+					<br>
+					<p>Não há muito o que fazer alem de escolher a cor do muro que será construído em seu terminal (veja as opções executando o programa com o parâmetro -h ou --help), todo o trabalho será feito <del>pelos Mexicanos</del> pelo computador. Quando se cansar, basta pressionar CTRL + C e o programa irá dizer o quanto o muro já foi construído e encerrar o programa.</p>
+					<br>
+					<p>Escrito como uma inocente piada durante as eleições americanas deste ano, o programa não deve ser levado a sério, é apenas uma brincadeira!</p>
+					<br>
+					<p>O programa faz parte de alguns projetos meus na linguagem C. Por ser um programa tão simples e bobinho, achei melhor não criar um repositório só para ele.</p>
+					<br>
+					<p>Link para o repositório: <a href="https://github.com/Wolfterro/Projetos-em-C" target="_blank">https://github.com/Wolfterro/Projetos-em-C</a></p>
+					<br>
+					<p>E por enquanto é só!</p>
+					<br>
+					<p>Tenho feito alguns projetos em outras linguagens de programação como C# e C++, mas acredito que as minhas linguagens de programação favoritas são Python e C, e muito provavelmente futuros projetos serão criados utilizando estas linguagens.</p>
+					<br>
+					<h4><a href="../posts.html">Voltar!</a></h4>
+					<hr>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>© 2016 / Wolfgang - Website / Website Desenvolvido por Wolfgang de Almeida.</h1>
+					<p>Este site está hospedado em <a href="https://github.com">GitHub</a> / Este site utiliza <a href="http://getbootstrap.com/">Bootstrap</a> / Este site utiliza <a href="http://glyphicons.com/">Glyphicons</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
