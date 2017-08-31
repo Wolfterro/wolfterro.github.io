@@ -37,7 +37,7 @@
 }
 
 body {
-	background-color: #E0E0EB;
+	background-color: #212121;
 }
 
 .navbar {
@@ -45,6 +45,7 @@ body {
 	margin-right: 50px;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	background-color: #f0f0f0;
 	border-bottom: 2px solid #CACAD4;
 }
 
@@ -70,12 +71,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 1px;
-  border-bottom: 2px solid #CACAD4;
   border-radius: 5px;
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 15px;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
 }
 
 .jumbotron .container {
@@ -84,7 +84,7 @@ body {
 }
 
 .intro {
-  background-color: white;
+  background-color: #f0f0f0;
   border-bottom: 2px solid #CACAD4;
   border-radius: 5px;
   margin-left: 50px;
@@ -155,7 +155,7 @@ body {
 }
 
 .footer {
-	background-color: #F8F8F8;
+	background-color: #f0f0f0;
 	border-bottom: 2px solid #CACAD4;
 	border-radius: 5px;
 	margin-left: 50px;
