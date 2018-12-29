@@ -171,6 +171,10 @@
           ), url("../static/img/jumbotron-main-mobile.png");
     }
 
+    .indexsheet-main-jumbotron-text {
+        margin-top: 50px;
+    }
+
     .indexsheet-jumbotron-h1 {
         font-size: 24px;
     }
