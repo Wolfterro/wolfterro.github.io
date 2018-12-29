@@ -1,92 +1,155 @@
-﻿<!DOCTYPE html>
-<html>
-
+<!DOCTYPE html>
 <head>
-	<title>Wolfgang - Website: Início</title>
-	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/indexsheet.css">
-	<script src="js/disclaimer.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+	<!-- My CSS -->
+	<link rel="stylesheet" href="css/indexsheet.css">
+
+	<title>Wolfgang - Desenvolvedor Back-End</title>
+	<link rel="shortcut icon" type="image/x-icon" href="static/img/favicon.ico">
 </head>
 
-<body onLoad="printDisclaimer()">
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span> 
-				</button>
-				<a class="navbar-brand"><span><img src="img/favicon.png" width="25" height="25" /></span> Wolfgang - Website</a>
+<body>
+
+<div class="jumbotron jumbotron-fluid text-center indexsheet-main-jumbotron">
+	<div class="container">
+		<div class="indexsheet-main-jumbotron-text">
+			<p class="indexsheet-jumbotron-p">- Wolfgang de Almeida Pires -</p> 
+			<h1 class="indexsheet-jumbotron-h1">Desenvolvedor Back-End</h1>
+
+			<hr class="indexsheet-jumbotron-hr">
+
+			<h2 class="indexsheet-jumbotron-h2">Com experiência em Banco de Dados, Front-End e Android.</h2>
+
+			<div class="indexsheet-jumbotron-social-media-div">
+				<a href="https://www.linkedin.com/in/wolfgang-almeida/" target="_blank" ><i class="fab fa-linkedin-in indexsheet-fa-icon-light"></i></a>
+				<a href="https://github.com/Wolfterro" target="_blank"><i class="fab fa-github indexsheet-fa-icon-light"></i></a>
+				<a href="mailto:wolfgang.almeida@yahoo.com"><i class="fas fa-at indexsheet-fa-icon-light"></i></a>
 			</div>
-			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav navbar-left">
-					<li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Início</a></li>
-					<li><a href="posts.html"><span class="glyphicon glyphicon-comment"></span> Postagens</a></li>
-					<li><a href="downloads.html"><span class="glyphicon glyphicon-download-alt"></span> Downloads</a></li> 
-					<li><a href="tutoriais.html"><span class="glyphicon glyphicon-bookmark"></span> Tutoriais</a></li> 
-					<li><a href="videos.html"><span class="glyphicon glyphicon-expand"></span> Vídeos</a></li> 
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="https://github.com">Powered by: GitHub</a></li>
-				</ul>
+		</div> 
+	</div>
+</div>
+
+<div class="indexsheet-main-content-dark">
+	<div class="container">
+		<div class="row">
+			<!-- Texto -->
+			<div class="col-md-6">
+				<div class="indexsheet-main-content-inside-content">
+					<h1 class="indexsheet-main-content-h1">Quem sou eu?</h1>
+					<p class="indexsheet-main-content-p">Meu nome é Wolfgang, tenho <span id="yearsOld">25</span> anos, moro na cidade do Rio de Janeiro e trabalho como <b>Desenvolvedor Back-End na Storm Security & Safety Systems (StormGroup).</b></p>
+					<p class="indexsheet-main-content-p">Comecei a programar em 2015 e desde então me dedico a esta profissão. Comecei com coisas simples como HTML, CSS e Javascript e depois parti para as linguagens de programação mais utilizadas em Back-End (Java, Python e C#).</p>
+					<p class="indexsheet-main-content-p">Estou me formando em <b>Redes de Computadores</b> pela <b>Universidade Castelo Branco.</b> Havia escolhido este curso pouco antes de seguir a carreira como desenvolvedor. Decidi continuar mesmo assim pois não possuia nenhum conhecimento de redes.</p>
+				</div>
 			</div>
-		</div>
-	</nav>
-	
-	<div class="jumbotron">
-		<div class="container">
-			<center><img src="img/avatar.jpg" class="img-circle" alt="Avatar" width="250" height="250"></center>
-		</div>
-    </div>
-	
-	<div class="intro">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<hr>
-					<br>
-					<h1><span class="glyphicon glyphicon-star-empty"></span> Website Pessoal de Wolfgang de Almeida <span class="glyphicon glyphicon-star-empty"></span></h1>
-					<h2>( Profissional em Redes de Computadores / Programador / Técnico em Informática )</h2>
-					<br>
-					<h2><img src="https://github.com/fluidicon.png" alt="Github" width="28" height="28"> GitHub: <a href="https://github.com/Wolfterro" target="_blank">https://github.com/Wolfterro</a></h2>
-					<h2><span class="	glyphicon glyphicon-envelope"></span> E-Mail: <a href="mailto:wolfgang.almeida@yahoo.com">wolfgang.almeida@yahoo.com</a></h2>
-					<br>
-					<hr>
-					<br>
-					<p>Aqui vocês encontrarão tutoriais, vídeos e postagens sobre diversos assuntos ligados ao mundo da informática, como programação, desenvolvimento web e novas tecnologias.</p> 
-					<br>
-					<p>Basta clicar em um dos links abaixo ou na barra de navegação no topo da página:</p>
-					<br>
-					<ul>
-						<li><a href="posts.html"><span class="glyphicon glyphicon-comment"></span> Postagens</a></li>
-						<li><a href="downloads.html"><span class="glyphicon glyphicon-download-alt"></span> Downloads</a></li> 
-						<li><a href="tutoriais.html"><span class="glyphicon glyphicon-bookmark"></span> Tutoriais</a></li> 
-						<li><a href="videos.html"><span class="glyphicon glyphicon-expand"></span> Vídeos</a></li> 
-					</ul>
-					<br>
-					<hr>
+			
+			<!-- Imagem -->
+			<div class="col-md-6">
+				<div class="indexsheet-main-content-inside-content-image">
+					<img src="static/img/eu.png" class="img-thumbnail" alt="Eu" width="75%" height="75%">
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 	
-	<div class="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<h1 id="disclaimer"></h1>
-					<p>Este site está hospedado em <a href="https://github.com">GitHub</a> / Este site utiliza <a href="http://getbootstrap.com/">Bootstrap</a> / Este site utiliza <a href="http://glyphicons.com/">Glyphicons</a></p>
+<div class="indexsheet-main-content-light">
+	<div class="container">
+		<div class="row">
+			<!-- Texto -->
+			<div class="col-md-6">
+				<div class="indexsheet-main-content-inside-content">
+					<h1 class="indexsheet-main-content-h1">Quais conhecimentos eu possuo?</h1>
+					<p class="indexsheet-main-content-p">Meus principais conhecimentos são de tecnologias e ferramentas utilizadas no desenvolvimento em soluções de Back-End.</p>
+					<p class="indexsheet-main-content-p">As principais linguagens de programação que uso, são: <b>Python, Java, C# (.NET), Javascript (ES6, Node.js) e um pouco de C++.</b></p>
+					<p class="indexsheet-main-content-p">Sobre Banco de Dados, possuo experiência com os seguintes bancos SQL: <b>MySQL, PostgreSQL, SQLite3 e um pouco de Oracle.</b></p>
+					<p class="indexsheet-main-content-p">No quesito Front-End, possuo experiência com: <b>HTML5, CSS3, Bootstrap 3 e 4, um pouco de Sass, Javascript, Vue.js e Django Templates.</b></p>
+					<p class="indexsheet-main-content-p">Para uma lista completa e atualizada de quais linguagens, tecnologias, ferramentas e frameworks eu utilizo, <b>clique no botão abaixo para visualizar ou baixar meu Currículo!</b></p>
+
+					<div class="indexsheet-main-content-button">
+						<a href="static/docs/Currículo - Wolfgang Almeida.pdf" target="_blank">
+							<button type="button" class="btn btn-secondary btn-lg"><span class="fas fa-file-pdf"></span> Visualizar Currículo <span class="fa fa-download"></span></button>
+						</a>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Imagem -->
+			<div class="col-md-6">
+				<div class="indexsheet-main-content-inside-content-image">
+					<img src="static/img/python.png" class="img-thumbnail indexsheet-main-content-image-transparent" alt="Python" width="75%" height="75%">
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
+
+<div class="indexsheet-main-content-dark">
+	<div class="container">
+		<div class="row">
+			<!-- Texto -->
+			<div class="col-md-6">
+				<div class="indexsheet-main-content-inside-content">
+					<h1 class="indexsheet-main-content-h1">Minhas Experiências</h1>
+					<p class="indexsheet-main-content-p">Meu trabalho como Desenvolvedor Back-End na Storm Security me proporcionou uma grande quantidade de experiências.</p>
+					<p class="indexsheet-main-content-p">Além dos projetos internos da empresa, como o <b>Back-End do site da Storm</b> e <b>outros projetos</b> que ainda estão em processo de elaboração e desenvolvimento, tive a chance de colaborar com projetos de grandes empresas brasileiras como a <b>Globosat</b> e <b>TV Globo.</b></p>
+					<p class="indexsheet-main-content-p">Na Globosat, trabalhei na manutenção dos seguintes projetos: <b>Globosat Play</b>, <b>Philos TV</b> e <b>Futura Play.</b></p>
+					<p class="indexsheet-main-content-p">Já na TV Globo, pude participar do início do desenvolvimento de um projeto interno, o <b>Valoração.</b></p>
+					<p class="indexsheet-main-content-p">Para uma lista mais elaborada dos projetos que participei, consulte meu currículo ou meu perfil no LinkedIn.</p>
+				</div>
+			</div>
+			
+			<!-- Imagem -->
+			<div class="col-md-6">
+				<div class="indexsheet-main-content-inside-content-image">
+					<img src="static/img/stormgroup-clientes.png" class="img-thumbnail" alt="StormGroup Clientes" width="80%" height="80%">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="indexsheet-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="indexsheet-footer-content">
+					<p class="indexsheet-footer-p">- Wolfgang de Almeida Pires -</p> 
+					<h1 class="indexsheet-footer-h1">Desenvolvedor Back-End</h1>
+		
+					<hr class="indexsheet-footer-hr">
+		
+					<h2 class="indexsheet-footer-h2">Com experiência em Banco de Dados, Front-End e Android.</h2>
+
+					<p class="indexsheet-footer-social-media-p"><a class="indexsheet-footer-a" href="https://www.linkedin.com/in/wolfgang-almeida/" target="_blank" >LinkedIn</a> • <a class="indexsheet-footer-a" href="https://github.com/Wolfterro" target="_blank">GitHub</a> • <a class="indexsheet-footer-a" href="mailto:wolfgang.almeida@yahoo.com">E-Mail</a></p>
+					
+					<p class="indexsheet-footer-social-media-p">© 2018 Wolfgang de Almeida Pires. Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 </body>
+
+<!-- My JS -->
+<script src="js/utilities.js"></script>
 
 </html>
