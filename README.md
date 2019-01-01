@@ -1,6 +1,7 @@
 # wolfterro.github.io
 #### Website Pessoal no Github
 
+#### Esta branch guarda o novo website em sua versão estática!
 
 ### Descrição:
 
